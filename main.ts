@@ -1,4 +1,5 @@
 input.onButtonPressed(Button.A, function () {
+    music.stopAllSounds()
     music.setTempo(150)
     for (let index = 0; index < 2; index++) {
         music.play(music.tonePlayable(262, music.beat(BeatFraction.Half)), music.PlaybackMode.UntilDone)
