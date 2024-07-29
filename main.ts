@@ -146,12 +146,3 @@ input.onButtonPressed(Button.A, function () {
         music.rest(music.beat(BeatFraction.Breve))
     }
 })
-basic.forever(function () {
-    basic.showLeds(`
-        . # . # .
-        # . # . #
-        # # # # #
-        . # # # .
-        . # . # .
-        `)
-})
